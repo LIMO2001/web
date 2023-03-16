@@ -1,0 +1,367 @@
+.bg-img{
+    background-image:int.jpg;
+    min-height:380px;
+    min-width: none;
+    backround-size:cover;
+    backround-repeat:no-repeat;
+     position: relative;
+}
+
+.container{
+    position: relative;
+    margin: 50px;
+    width: 20px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: rgb(177, 9, 9);
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position:fixed;
+    top:0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    display: block;
+  }
+
+  nav ul{
+    display: block;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+border-style: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    width: fit-content;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  /*advert*/
+  .advert{
+    width: 100%;
+    text-align: center;
+    mergini-bottom:20px;
+  }
+  .advert img{
+    max-width: 100%;
+  }
+/*video*/
+  .video-container {
+    position: fixed;
+    padding-bottom: 30.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  .marquee {
+    overflow: hidden;
+    height: 50px;
+
+  }
+  
+  .marquee p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    animation: marquee 50s linear infinite;
+animation-fill-mode: b
+ackwards;
+    font-size: larger;   backface-visibility: visible;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: #04AA6D;
+    text-align: center;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  /*about*/
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+  }
+  
+  html {
+    border-radius: 5px;
+  }
+  
+  *, *:before, *:after {
+ border: #04AA6D;
+ border-radius: 5px;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: rgb(9, 243, 21);
+}
+  
+.container {
+  padding: 0 16px;
+}
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  /* logo*/
+  .logo{
+    float: right;
+    margin-left: 50px;
+    width: 50px;
+    height:0px;
+display: flex;
+  }
+  align{
+    align-items: center;
+    background-image: C:\Users\LIMO K DUKE\final sem project\restaurant-kitchen-27268708.jpg;
+  }
+
+  .icons.fab{
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 15 px;
+
+  }
+
+  /* icon*/
+  .icons.fab{
+    align-items: center;
+    direction: rtl;
+    size: 15px;
+  }
+
+  /* desserts*/
+  .desserts{
+    background-image:int.jpg;
+  }
+/*form*/
+.form{
+  background-image: int.jpg;
+}
+
+/*IFRAME */
+#form-container {
+  display: none;
+
+}
+#iframe-container {
+  width: 100%;
+  height: 500px;
+}
+
+/*form*/
+#my-form {
+  background-image: url("order2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+#my-form h2 {
+  color: #190685;
+  text-align: center;
+}
+
+#my-form input[type="text"],
+#my-form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 2opx%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #6e09f1;
+  background-color: rgba(18, 199, 231, 0.8);
+}
+
+/*iframe*/
+.iframe{
+  box-shadow: #04AA6D;
+  transition: height 1s;
+  overflow: hidden;
+}

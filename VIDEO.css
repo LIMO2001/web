@@ -1,0 +1,14 @@
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css">
+      video {
+         max-width: 100%;
+         height: auto;
+      }
+   </style>
+</head>
+<body>
+   <video src="video.mp4" controls> This text will be displayed if your browser does not support embedding videos. </video>
+</body>
+</html>
